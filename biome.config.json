@@ -1,0 +1,8 @@
+{
+  "extends": ["config:recommended"],
+  "rules": {
+    "files": {
+      "ignore": ["dist/**"]
+    }
+  }
+}
