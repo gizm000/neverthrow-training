@@ -106,7 +106,7 @@ Neverthrow関連の情報へのリンク
 - [【TypeScript】try-catchはもう不要！？NeverThrowを使ったエラーハンドリング](https://nakamuuu.blog/typescript-how-to-use-neverthrow/)
 
 
-## 使い方
+## 本リポジトリの使い方
 
 パッケージのインストール `pnpm install` 
 
@@ -114,6 +114,8 @@ DB(sqlite3)の準備 `pnpm migrate`
 
 jestが動くことの確認 `pnpm test`
 
+
+`pnpm test:watch` でテストを動かした状態で、各種トレーニングファイルを編集して挙動を確認してみてください。
 
 `trainings` ディレクトリ配下に練習用のファイルを用意しています。  
 
@@ -131,5 +133,5 @@ jestが動くことの確認 `pnpm test`
 - [012-fromThrowable.spec.ts]
 - [013-fromSafePromise.spec.ts]
 - [014-fromPromise.spec.ts]
-
+- 以降は実際にプロダクトコードに使うとどうなるかを書いていく予定
 
